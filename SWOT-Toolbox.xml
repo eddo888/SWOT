@@ -1,0 +1,47 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="0647009C-1" name="SWOT Toolbox" version="1.0" notes="SWOT Toolbox"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Packages" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="SWOT::Actions(UML::Package)" type="" description="" unit="" values="" default="Actions"/>
+					<Tag name="SWOT::Opportunities(UML::Package)" type="" description="" unit="" values="" default="Opportunities"/>
+					<Tag name="SWOT::Owners(UML::Package)" type="" description="" unit="" values="" default="Owners"/>
+					<Tag name="SWOT::Strengths(UML::Package)" type="" description="" unit="" values="" default="Strengths"/>
+					<Tag name="SWOT::SWOT(UML::Package)" type="" description="" unit="" values="" default="SWOT"/>
+					<Tag name="SWOT::Threats(UML::Package)" type="" description="" unit="" values="" default="Threats"/>
+					<Tag name="SWOT::Weaknesses(UML::Package)" type="" description="" unit="" values="" default="Weaknesses"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="SWOT References" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="SWOT::Action Reference(UML::Association)" type="" description="" unit="" values="" default="Actions"/>
+					<Tag name="SWOT::Owner Reference(UML::Association)" type="" description="" unit="" values="" default="Owns"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="SWOT Types" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="SWOT::Action(UML::Class)" type="" description="" unit="" values="" default="Action"/>
+					<Tag name="SWOT::Opportunity(UML::Class)" type="" description="" unit="" values="" default="Opportunity"/>
+					<Tag name="SWOT::Owner(UML::Class)" type="" description="" unit="" values="" default="Owner"/>
+					<Tag name="SWOT::Strength(UML::Class)" type="" description="" unit="" values="" default="Strength"/>
+					<Tag name="SWOT::Threat(UML::Class)" type="" description="" unit="" values="" default="Threat"/>
+					<Tag name="SWOT::Weakness(UML::Class)" type="" description="" unit="" values="" default="Weakness"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>
